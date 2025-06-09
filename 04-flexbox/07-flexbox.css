@@ -3,11 +3,28 @@
 }
 
 /* Flex Container 1 */
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* Flex Container 2 */
-
+.flex-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
 /* Flex Container 3 */
-
+.flex-container-3 {
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(2, 400px);
+  grid-auto-flow: column;
+  direction: rtl, rtl; /* reverses column order */
+  justify-content: center;
+  gap: 10px;
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
