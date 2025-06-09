@@ -14,11 +14,7 @@ li[class] {
   /*color: var(--blue);*/
   font-weight: bold;
 }
-/*
-li[class="dog"] {
-  color: var(--magenta);
-}
-*/
+
 li[class$="og"] {
   color: var(--violet);
 }
@@ -36,11 +32,6 @@ li[class*="don"] {
   color: var(--royalblue);
 }
 
-/*
-li[class="hedgehog"] {
-  color: var(--magenta);
-}
-*/
 li[class="cat dog parrot"] {
   color: var(--royalblue);
 }
